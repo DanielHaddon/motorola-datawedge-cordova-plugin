@@ -4,8 +4,12 @@
            id="com.bluefletch.motorola"
       version="0.1.0">
     <name>Motorola Cordova Plugin</name>
+    <description>You can use this to interface with the motorola datawedge service.</description>
+    <license>MIT</license>
 
-
+    <repo>https://github.com/DanielHaddon/motorola-datawedge-cordova-plugin</repo>
+    <issue>https://github.com/DanielHaddon/motorola-datawedge-cordova-plugin/issues</issue>
+	
     <js-module src="www/datawedge.js" name="MotorolaDataWedge">
         <clobbers target="datawedge" />
     </js-module>
