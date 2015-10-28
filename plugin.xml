@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
-           id="com.bluefletch.motorola"
-      version="0.1.0">
+  
+	  
+	<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.onestop.cordova.datawedge"
+    version="1.0.1">
+	  
     <name>Motorola Cordova Plugin</name>
     <description>You can use this to interface with the motorola datawedge service.</description>
     <license>MIT</license>
 
     <repo>https://github.com/DanielHaddon/motorola-datawedge-cordova-plugin</repo>
     <issue>https://github.com/DanielHaddon/motorola-datawedge-cordova-plugin/issues</issue>
+	
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
 	
     <js-module src="www/datawedge.js" name="MotorolaDataWedge">
         <clobbers target="datawedge" />
